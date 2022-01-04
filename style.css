@@ -1,0 +1,148 @@
+@charset "UTF8";
+
+body{
+background-color: #83e1ad;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+}
+@font-face {
+    font-family:'idroid';
+src: url('fontes/idroid.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.titulos{
+    font-family: 'idroid,sans-serif';
+}
+
+header{
+ margin: 0px;
+ background-image: linear-gradient(To bottom, #2fa866, #063d1e );
+ text-align: center;
+ font-family: 'Bebas Neue';
+ text-shadow: 2px 2px 0px rgba(36, 35, 35, 0.274);
+ padding: 10px;
+ 
+
+    }
+
+header>p{
+    color: white;
+}
+
+header>h1{
+    color: white;
+}
+
+nav{
+    padding: 3px;
+    text-align: left;
+ 
+
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 35px;
+}
+nav>a:hover{
+    color: black;
+}
+main{
+    margin: auto;
+    background-color: white;
+    min-width: 400px;
+    max-width: 800px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.397);
+}
+
+.titulos{
+    font-family: "idroid";
+    color:  #2fa866;
+    padding: 10px;
+   }
+   .primeiraversao{
+       color: #2fa866 ;
+       background-color:  #2fa8653b;
+       font-family: "idroid";
+       padding: 10px;
+
+   }
+  
+   aside{
+    background-color: #c5ebd6;
+
+    margin: 25px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.116) 1px 1px 1px 1px;
+    }
+   aside>h2{
+    background-color: #2fa866
+   }
+   aside>p{
+       padding: 20px;
+   }
+   
+  article>p{
+      padding: 18px;
+      text-align: justify;
+  }
+   ul{
+       list-style-type: '\2714\0020\0020';
+       columns: 2;
+       list-style: inside;
+   }
+   .mudei{
+       padding: 18px;
+       text-align: justify;
+
+   }
+
+   footer{
+       background-color: #1a5c37;
+       text-align: center;
+       padding: 3px;
+       margin:0px
+   }
+   div.video{
+       position: relative;
+       background-color: var(--cor4);
+       height: 0px;
+       margin-left: -20px;
+       margin-right: -20px;
+       margin-bottom: 15px;
+       padding-bottom: 59%;
+    
+   }
+
+   div.video>iframe{
+       position: absolute;
+       top: 5%;
+       left: 5%;
+       width: 90%;
+       height: 90%;
+   }
+aside>h2{
+    border-radius: 10px 10px 0px 0px ;
+    color: white;
+    padding: 10px;
+}
+ aside>p>a{
+    text-decoration: none;
+    color:  #2fa866;
+    font-weight: bold;
+    
+ }
+aside>p>a:hover{
+color: black;
+}
+ 
+.droids{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
